@@ -92,3 +92,24 @@ main {
 footer {
     background-color: orange;
 }
+
+/* media queries for tablets and larger screens (768px and up */
+@media (min-width: 768px) {
+    /* Navbar styles for larger screens */
+    nav {
+        position: relative;
+        box-shadow: none;
+        display: block !important;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    }
+    #menu li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
+}
