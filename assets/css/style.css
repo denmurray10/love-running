@@ -95,7 +95,6 @@ footer {
 
 /* media queries for tablets and larger screens (768px and up */
 @media (min-width: 768px) {
-    /* Navbar styles for larger screens */
     nav {
         position: relative;
         box-shadow: none;
@@ -111,5 +110,23 @@ footer {
     }
     .nav-toggle-label {
         display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to make space for fixed header */
+        margin-top: 79px;
+    }
+}
+/* media queries for latops and larger screens 992px and up */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 }
