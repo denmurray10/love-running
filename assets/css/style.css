@@ -136,6 +136,42 @@ main {
     padding: 5%;
 }
 
+/* Width of sections and padding bewtwen divs*/
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-physical > div,
+#benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+#benefits p {
+    padding: 0 20px;
+}
+
+#circle-cover-bg {
+    background: url(../images/reasons-image.webp) no-repeat center center/cover;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* media queries for tablets and larger screens (768px and up */
 @media (min-width: 768px) {
     nav {
@@ -178,4 +214,8 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+}
+#benefits hr {
+    border: 1px solid 3a3a3a;
+    margin: 5px 0 5px 0;
 }
