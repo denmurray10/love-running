@@ -26,6 +26,9 @@ h3 {
     letter-spacing: 2px;
     color: #252525;
 }
+.hidden {
+    display: none;
+}
 
 /* header */
 header {
@@ -193,7 +196,7 @@ main {
 #times h3 {
     /* Overide the heading colour set in general styles */
     color: #fafafa;
-
+}
 
 /* Media queries for tablets and larger screens (768px and up */
 @media (min-width: 768px) {
